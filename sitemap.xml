@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.mikeogbebor.com/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://mikeogbebor.com/</loc>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
-    <loc>https://www.mikeogbebor.com/article-ai-infrastructure.html</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mikeogbebor.com/mike-article-ai-infrastructure.html</loc>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
-    <loc>https://www.mikeogbebor.com/article-pentagon.html</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mikeogbebor.com/mike-article-pentagon.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article3-settlement-rails.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article3-spr-v2.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article4-sahel-v2.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article4-smart-capital.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article5-hormuz-sovereign-risk.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mikeogbebor.com/mike-article6-aws-sovereign-ai.html</loc>
+    <lastmod>2026-10-15</lastmod>
   </url>
 </urlset>
