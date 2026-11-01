@@ -265,6 +265,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .footer-social a:hover{color:#0B1F3A;}
 .footer-social a:focus-visible{outline:2px solid #0B1F3A;outline-offset:2px;}
 .footer-social svg{width:18px;height:18px;display:block;}
+.hero{min-height:auto !important;}
+.hero-inner{padding:56px 60px 72px !important;align-items:start !important;}
+.hero-tag{margin-bottom:20px !important;}
+.hero-h1 .hero-name,.hero-h1 .hero-name-last{display:inline !important;font-size:clamp(40px,4.2vw,60px) !important;line-height:1.05 !important;margin:0 !important;}
+.hero-h1 .hero-name::after{content:' ';}
+.hero-motto{margin:14px 0 28px !important;}
+.hero-ventures{list-style:none;margin:0 0 28px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:760px;}
+.hero-ventures li>a,.hero-ventures li>div{display:block;height:100%;background:#FFFFFF;border:1px solid #E4DED2;border-left:2px solid #B8975A;padding:16px 18px;text-decoration:none;transition:border-color .2s;}
+.hero-ventures li>a:hover,.hero-ventures li>a:focus-visible{border-color:#B8975A;}
+.hero-ventures li>a:focus-visible{outline:2px solid #0B1F3A;outline-offset:2px;}
+.hv-name{display:block;font-family:'Fraunces',serif;font-size:18px;font-weight:600;color:#0B1F3A;margin-bottom:6px;}
+.hv-focus{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#4A5568;line-height:1.5;}
+.hero-roles{margin-bottom:32px !important;}
+@media(max-width:900px){.hero-inner{padding:32px 24px 48px !important;}}
+@media(max-width:600px){.hero-ventures{grid-template-columns:1fr;}}
+@media(max-width:480px){.hero-motto{margin:10px 0 24px !important;}}
 </style>
 <script type="application/ld+json">
 {
@@ -308,7 +324,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 <div class="cursor-ring" id="cursorRing"></div>
 
 <nav>
-  <div class="nav-name">Mike Ogbebor</div>
+  <div class="nav-name">M.O.</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#ventures">Ventures</a></li>
@@ -326,6 +342,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
       <div class="hero-tag">Author · Strategic Advisor · Infrastructure Strategist</div>
       <h1 class="hero-h1"><span class="hero-name">Mike</span><span class="hero-name-last">Ogbebor</span></h1>
       <p class="hero-motto">Discipline Over Motivation, Purpose Is the Strategy</p>
+      <ul class="hero-ventures" aria-label="Ventures">
+        <li><a href="https://www.gobeyondadvisory.com" target="_blank" rel="noopener"><span class="hv-name">GoBeyond Advisory</span><span class="hv-focus">Strategic Advisory · Capital · AI Infrastructure</span></a></li>
+        <li><div><span class="hv-name">JE TEX Energy</span><span class="hv-focus">Energy Technology · Innovation · Infrastructure</span></div></li>
+        <li><a href="https://ekorails.com" target="_blank" rel="noopener"><span class="hv-name">EKORAILS</span><span class="hv-focus">Financial Technology · Digital Infrastructure</span></a></li>
+        <li><a href="https://mikeinc.com" target="_blank" rel="noopener"><span class="hv-name">Mike Inc.</span><span class="hv-focus">Education · Media · Speaking</span></a></li>
+      </ul>
       <div class="hero-roles">
         <div class="hero-role">Founder, GoBeyond Advisory</div>
         <div class="hero-role">Founder, EKORAILS</div>
@@ -346,8 +368,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
                style="width:100%;height:100%;object-fit:cover;object-position:center 60%;display:block;filter:grayscale(6%) contrast(1.04);">
           <!-- Bottom caption overlay -->
           <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(9,9,11,0.93));padding:32px 20px 16px;">
-            <div style="font-family:'Fraunces',serif;font-size:13px;font-style:italic;color:var(--gold);letter-spacing:0.04em;">Mike Ogbebor</div>
-            <div style="font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(240,237,232,0.45);margin-top:3px;">Author · Advisor · Strategist</div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(240,237,232,0.85);margin-top:3px;">Author · Advisor · Strategist</div>
           </div>
           <!-- Gold corner accent top-left -->
           <div style="position:absolute;top:0;left:0;width:32px;height:2px;background:var(--gold);"></div>
