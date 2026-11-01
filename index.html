@@ -282,7 +282,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 @media(max-width:600px){.hero-ventures{grid-template-columns:1fr;}}
 @media(max-width:480px){.hero-motto{margin:10px 0 24px !important;}}
 .hero-motto-logo{white-space:normal;line-height:0;}.hero-motto-logo img{display:block;width:440px;max-width:100%;height:auto;}@media(max-width:480px){.hero-motto-logo img{width:280px;}}.mo-vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
-.hero-logo-h1{line-height:0;margin:8px 0 32px;}.hero-logo-h1 img{display:block;width:680px;max-width:100%;height:auto;}@media(max-width:480px){.hero-logo-h1 img{width:330px;}}
+.hero-logo-h1{line-height:0;margin:8px 0 32px;}.hero-logo-h1 img{display:block;width:clamp(330px,35.3vw,508px);max-width:100%;height:auto;}@media(max-width:480px){.hero-logo-h1 img{width:330px;}}
+.closing-quote{background:#FBF8F1;border-top:1px solid #E4DED2;padding:clamp(72px,10vw,128px) 24px;text-align:center;}.closing-quote figure{max-width:760px;margin:0 auto;}.closing-quote .cq-rule{width:56px;height:1px;background:#B8975A;margin:0 auto 40px;}.closing-quote blockquote{margin:0;font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(22px,2.6vw,34px);line-height:1.5;color:#0B1F3A;}.closing-quote figcaption{margin-top:36px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#B8975A;}
 </style>
 <script type="application/ld+json">
 {
@@ -326,7 +327,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 <div class="cursor-ring" id="cursorRing"></div>
 
 <nav>
-  <div class="nav-name">M.O.</div>
+  <div class="nav-name">– M.O. –</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#ventures">Ventures</a></li>
@@ -342,7 +343,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag">Author · Strategic Advisor · Infrastructure Strategist</div>
-      <h1 class="hero-h1 hero-logo-h1"><img src="assets/logo/globe-motto@2x.png" srcset="assets/logo/globe-motto@1x.png 440w, assets/logo/globe-motto@2x.png 880w, assets/logo/globe-motto@3x.png 1145w" sizes="(max-width:480px) 330px, 680px" width="680" height="173" alt="Mike Ogbebor" decoding="async"></h1>
+      <h1 class="hero-h1 hero-logo-h1"><img src="assets/logo/globe-motto@2x.png" srcset="assets/logo/globe-motto@1x.png 440w, assets/logo/globe-motto@2x.png 880w, assets/logo/globe-motto@3x.png 1145w" sizes="(max-width:480px) 330px, (max-width:1440px) 35.3vw, 508px" width="508" height="129" alt="Mike Ogbebor" decoding="async"></h1>
       <p class="mo-vh">Global Perspective. Real Impact. Discipline Over Motivation, Purpose Is the Strategy</p>
       <ul class="hero-ventures" aria-label="Ventures">
         <li><a href="https://www.gobeyondadvisory.com" target="_blank" rel="noopener"><span class="hv-name">GoBeyond Advisory</span><span class="hv-focus">Strategic Advisory · Capital · AI Infrastructure</span></a></li>
@@ -627,6 +628,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
     <button type="submit" class="c-submit">Send Message</button>
   </form>
 </section>
+
+<section class="closing-quote" aria-label="Closing quote"><figure><div class="cq-rule"></div><blockquote>A leader is best when people barely know he exists. When his work is done, his aim fulfilled, they will say: we did it ourselves.</blockquote><figcaption>Lao Tzu</figcaption></figure></section>
 
 <footer>
   <div class="footer-name">Mike Ogbebor</div>
