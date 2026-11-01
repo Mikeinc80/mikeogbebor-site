@@ -109,6 +109,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:24px 60px;display:fl
 .hero-h1 .hero-name,.hero-h1 .hero-name-last{display:block;}
 .hero-name{font-family:'Fraunces',serif;font-size:clamp(60px,9vw,130px);font-weight:300;line-height:0.9;letter-spacing:-0.03em;margin-bottom:12px;opacity:0;animation:fadeUp 0.7s ease 0.2s forwards;}
 .hero-name-last{font-family:'Fraunces',serif;font-size:clamp(60px,9vw,130px);font-weight:700;font-style:italic;line-height:0.9;color:var(--gold);letter-spacing:-0.03em;margin-bottom:44px;opacity:0;animation:fadeUp 0.7s ease 0.3s forwards;}
+.hero-motto{font-family:'Syne',sans-serif;font-size:20px;font-weight:600;line-height:1.3;color:#0B1F3A;letter-spacing:0.01em;white-space:nowrap;margin:-28px 0 40px;opacity:0;animation:fadeUp 0.7s ease 0.38s forwards;}
+@media(max-width:480px){.hero-motto{font-size:clamp(11px,3.15vw,15px);white-space:normal;margin:-28px 0 32px;}}
 .hero-roles{display:flex;flex-direction:column;gap:8px;margin-bottom:52px;opacity:0;animation:fadeUp 0.7s ease 0.45s forwards;}
 .hero-role{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-dim);display:flex;align-items:center;gap:14px;}
 .hero-role::before{content:'';width:20px;height:1px;background:var(--gold);opacity:0.5;}
@@ -318,6 +320,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
     <div class="hero-left">
       <div class="hero-tag">Author · Strategic Advisor · Infrastructure Strategist</div>
       <h1 class="hero-h1"><span class="hero-name">Mike</span><span class="hero-name-last">Ogbebor.</span></h1>
+      <p class="hero-motto">Discipline Over Motivation, Purpose Is the Strategy</p>
       <div class="hero-roles">
         <div class="hero-role">Founder, GoBeyond Advisory</div>
         <div class="hero-role">Founder, EKO Infrastructure</div>
